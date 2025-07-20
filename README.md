@@ -1,12 +1,16 @@
-# ALX Travel App - Milestone 2
+# ALX Travel App
 
-This project sets up the models, serializers, and data seeding for a travel booking app.
+This project defines Django models for a travel booking system.
 
-## Features
-- Django models for Listing, Booking, and Review
-- DRF serializers for Listing and Booking
-- Management command to seed the database using Faker
+## Models
 
-## How to Seed the DB
+- Listing
+- Booking
+- Review
+
+## Seeder
+
+Run the following command to populate the database with listings:
+
 ```bash
 python manage.py seed
